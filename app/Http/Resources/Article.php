@@ -23,12 +23,12 @@ class Article extends JsonResource
         ];
     }
 
-    public function with($request){
-        return [
+    // public function with($request){
+    //     return [
 
-            'version' => '1.0.0',
-            'CRT'     => 'MTH'
+    //         'version' => '1.0.0',
+    //         'CRT'     => 'MTH'
 
-        ];
-    }
+    //     ];
+    // }
 }
